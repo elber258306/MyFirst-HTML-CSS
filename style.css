@@ -1,0 +1,116 @@
+* {
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+main {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section {
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+img {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+h1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+p {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    line-height: 25px;
+    
+}
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.Suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.Luxury {
+    background-color:hsl(179, 100%, 13%);
+}
+
+#Sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+#SUVS {
+    background-color: hsl(184, 100%, 22%);
+}
+#Luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+button {
+    color: hsl(0, 0%, 95%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid transparent;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    margin-bottom: 15%;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#btn_sedans {  
+    color: hsl(31, 77%, 52%);
+}
+#btn_sedans:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+#btn_suvs {
+    color: hsl(184, 100%, 22%);
+}
+#btn_suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+#btn_luxury {
+    color: hsl(179, 100%, 13%);
+}
+#btn_luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+    #Sedans {
+        border-radius: 10px 10px 0 0;
+    }
+    #Luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
+footer {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    
+    
+}
